@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "intro-to-ray"
+version = "0.1.0"
+description = ""
+authors = ["dhruv"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+ray = "^2.49.0"
+ipykernel = "^6.30.1"
+numpy = "^2.3.2"
+ipython = "^9.5.0"
+jupyter-client = "^8.6.3"
